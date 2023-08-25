@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}    
+
+.smoke {
+    width: 20%;
+    height: 20%;
+    z-index: -1;
+    filter: blur(1px);
+    transform-origin: 0 0;
+    background-image: url(images/smoke.42c4d9a8.gif);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: scale(5);
+}
+
+.container {
+    /* background-color: #1a2a13; */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.nav-up {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    height: 10vh;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.nav-item {
+    margin: auto;
+    padding: auto;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 2vw;
+    color: white;
+}
+
+.nav-item :hover {
+    text-decoration: line-through;
+}
+
+.nav-line {
+    border: 0.15vw solid white;
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+}
+
+.nav-copyright {
+    justify-self: center;
+    color: white;
+    margin: auto;
+    padding: auto;
+    font-size: 2vw;
+    
+}
+
+.wraper {
+    display: flex;  
+    flex-direction: row;
+    margin: auto;
+}
+
+.section-left {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.content-left {
+    margin-bottom: 6.5vw;
+    margin-left: 7vw;
+}
+
+.header-content {
+    font-size: 1.3vw;
+    font-family: 'Special Elite', cursive;
+}
+
+.description-content {
+    font-size: 1.2vw;
+}
+
+.section-right {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 25%;
+}
+
+.nav-right-item {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+}
+
+.element {
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    font: 3.5vw sans-serif;
+}
+
+.description {
+    align-self: center;
+    margin-top: 1vw;
+    font-family: 'Special Elite', cursive;
+}
+
+.nav-right-item a {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 3.5vw;
+    text-decoration: none;
+}
+
+.nav-right-item a :hover{
+    font-style: italic;
+}
+
+.periodic-element {
+    border: 0.1vw solid white;
+    position: relative;
+    width: 5.5vw;
+    height: 6.5vw;
+    margin-right: 0.2vw;
+    background-color: #51963d;
+    display: flex;
+    flex-direction: row;
+}
+
+.element-number {
+    color: white;
+    font-size: 1.4vw;
+    position: absolute;
+    top: 0.3vw;
+    right: 0.3vw;
+    font-style: normal !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.element-name {
+    color: white;
+    font-size: 3.5vw;
+    position: absolute;
+    left: 0.85vw;
+    top: 1.26vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.element-mass {
+    color: white;
+    font-size: 0.8vw;
+    position: absolute;
+    bottom: 0.3vw;
+    left: 0.3vw;
+    font-style: normal !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mail {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(194, 166, 166);
+    font-size: 1.2vw;
+}
+
+#worthy .element-name {
+    color: white;
+    font-size: 3.5vw;
+    position: absolute;
+    left: 1.3vw;
+    top: 1.26vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#fashion .element-name {
+    color: white;
+    font-size: 3.5vw;
+    position: absolute;
+    left: 1.7vw;
+    top: 1.26vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cvname {
+    color: white;
+    font-size: 3.5vw;
+    position: absolute;
+    left: 1.7vw;
+    top: 1.26vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#progress {
+    margin: 10% auto;
+    padding: 0;
+    color: white;
+    top:30%;
+    font-family: 'Special Elite', cursive;
+}
